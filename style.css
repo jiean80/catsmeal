@@ -1,0 +1,252 @@
+
+	/*a:link 링크가 된 상태 a:active 방문하지 않는 상태 a:visited 방문한 상태 a:hover 마우스를 올린 상태*/
+
+
+	/*font-family: 'Black Han Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Gothic A1', sans-serif;
+
+	#723b8f; purple
+	#ffd430; yellow
+	#ff88cc: pink;
+
+	*/
+
+
+	a:link, a:active, a:visited, a:hover{text-decoration: none; }
+	a:link, a:active, a:visited{color:#ffd430;}
+	a:hover{color:white;}
+
+
+
+	 nav{width:1360px; margin:auto; height:250px; position: fixed; z-index: 9999;}
+	 nav #logo{width:200px; height:200px; float:left; background:; font-family: 'Raleway'; font-size:4em;}
+	 nav #logo a {display: block; background:; text-align: center; line-height: 50px;  margin-top: 50px; margin-left:40px;}
+	 nav #menuList{float:right; margin:0; padding:0; background:; font-family: 'Raleway'; font-size:1.2em; margin-top:40px;}
+	 nav #menuList .main-menu-item {background:; list-style: none; width: 180px; height: 40px;}
+	 nav #menuList a{background:; display: block; height:40px; text-align: right; line-height: 40px;}
+	 
+
+
+		.Section1{height:1600px; width:1400px; position: relative; top:0; z-index:1;overflow: hidden;}
+		#ppbg {height:770px; width:1400px;}
+		#maincat {left:100px; position: absolute; top:200px; left:50%; transform:translate(-50%,0%);}
+		#maintxt1 {position: absolute; top:200px; left:150px;}
+		#maintxt2 {position: absolute; top:300px; left:170px;}
+		#maintxt3 {position: absolute; top:400px; left:120px;}
+		#group {top:80px; left:100px; position: relative;}
+		#gpimg {top:100px; left:200px; position:relative; height:477px; width:610px;}
+		#gptt {top:-80px; left: 900px; position: relative;}
+
+
+
+
+		/*holistic*/
+		.Section2{height:1900px; width: 1400px;position: relative; z-index:1;overflow: hidden;}
+		#sec2 {background:none;}
+		#subtH {left:150px; top:100px; position: relative;}
+		#httxt {left:800px; top:-120px; position: relative;}
+		#pkbg {height:1431px; width: 1400px;}
+		#qbestH {position: absolute; top:550px; left:200px;}
+		#origen {position: absolute; top:700px; left:200px; transition: all 1s;}
+		#origen:hover {width:600px; height:426px;}
+
+
+
+		#origentt {position: absolute; top:670px; left:770px;}
+		#origentxt {position: absolute; top:750px; left:770px;}
+		#origensp {position: absolute; top:950px; left:770px;}
+		#origenpc {position: absolute; top:982px; left:1070px;}
+
+		#purevitaimg {position: absolute; top:1300px; left:200px;}
+		#purevitaimg:hover {width:558px; height:466px;}
+		#pbestH {position: absolute; top:1170px; left:200px;}
+		#purett {position: absolute; top:1310px; left:770px;}
+		#puretxt {position: absolute; top:1390px; left:770px;}
+		#puresp {position: absolute; top:1590px; left:770px;}
+		#purepc {position: absolute; top:1622px; left:1070px;}
+
+		#fp1 {position: absolute; top:450px; left:45%;}
+		#fp2 {position: absolute; top:1800px; left:45%;}
+		
+
+
+
+		/*organic*/
+		.Section3{height:1900px; width:1400px; position: relative; z-index:1;overflow: hidden;}
+		#sec3 {background:none;}
+		#ogtxt {left:150px; top:90px; position:absolute;}
+		#subtO {right:150px; top:50px; position:absolute;}
+
+		#ybg{height:1483px; width:1400px; top:400px; position: absolute;}
+		#ogfp {position: absolute; top:400px; left:100px; z-index:2;}
+		#qbestO {top:500px; left:200px; position: absolute; z-index:3;}
+		#orximg {position: absolute; top:630px; left:200px; z-index:3; height: 430px;}
+		#orximg:hover {width:561px;height:541px;}
+		#orxtt{position: absolute; top:650px; left:770px; z-index:3;}
+		#orxtxt{left:770px; top:730px; z-index:3; position: absolute;}
+		#orxsp {position: absolute; left:770px; top:930px; z-index:3;}
+		#orxpc {position: absolute; left:1070px; top:960px;}
+
+		#pbestO {position: absolute; left:200px; top:1200px; z-index:3;}
+		#realimg {position: absolute; left:200px; top:1320px; z-index:3; width:450px;}
+		#realimg:hover {width:596px; height:507px;}
+		#realtt {position: absolute; left: 770px; top:1330px; z-index:3;}
+		#realtxt {position: absolute; left: 770px; top:1410px; z-index:3;}
+		#realsp {position: absolute; left:770px; top:1580px; z-index:3;}
+		#realpc {position: absolute; left:1070px; top:1615px; z-index:3;}
+		
+
+
+
+
+		/*super premium*/
+		.Section4{height:2000px; width:1400px; position: relative; z-index:1; overflow:hidden;}
+		#sec4 {background:none;}
+		#subtS {left:150px; top:0px; position: absolute;}
+		#sptxt {left:800px; top:100px; position: absolute;}
+
+		#ppbg2 {position:relative; height:1554px; width:1400px; top:400px;z-index:1;}
+		#spfp {position:absolute; height:1360px; width:1365px; top:500px;z-index:2;} 
+
+		#qbestS {position: absolute; top:580px; left:200px;z-index:3;}
+		#royalimg {position: absolute; top:710px; left:200px;z-index:3;}
+		#royalimg:hover {width:539px; height:417px;}
+
+		#royaltt {position: absolute; top:700px; left:770px;z-index:3;}
+		#royaltxt {position: absolute; top:790px; left:770px;z-index:3;}
+		#royalsp {position: absolute; top:970px; left:770px;z-index:3;}
+		#royalpc {position: absolute; top:1005px; left:1070px;z-index:3;}
+
+		#pbestS{position: absolute; top:1200px; left:200px;z-index:3;}
+		#choice_img{position:absolute; top:1330px; left:200px; height:480px;z-index:3;}
+		#choice_img:hover {width:550px; height:550px;}
+		#choice_tt{position:absolute; top:1330px; left:770px;z-index:3;}
+		#choice_txt{position:absolute; top:1440px; left:770px;z-index:3;}
+		#choice_sp {position: absolute; top:1650px;left:770px;z-index:3;}
+		#choice_pc {position: absolute; top:1680px; left:1070px;z-index:3;}
+
+
+
+
+
+		/*premium*/
+		.Section5{height:1900px; width:1400px; position: relative; z-index:1;overflow: hidden;}
+		#sec5 {background:none;}
+		#pmtxt {left:150px; position:absolute; top:0px; z-index:3;}
+		#subtP {right:150px; position:absolute; top:-30px;}
+
+		#pkbg2 {width:1400px; height:1762px; position: relative; top:230px;}
+
+		#qbestP {position:absolute; top:450px; left:200px;}
+		#whiskasimg {position: absolute; top:600px; left:200px; height:470px;}
+		#whiskasimg:hover {width:530px; height:530px;}
+		#whiskas_tt{position: absolute; top:600px; left:770px;}
+		#whiskas_txt{position: absolute; top:710px; left:770px;}
+		#whiskas_sp{position: absolute; top:920px; left:770px;}
+		#whiskas_pc{position: absolute; top:950px; left:1070px;}
+
+		#pbestP {position: absolute;top:1200px; left:200px;}
+		#catsrangimg {position: absolute; top: 1300px; left:200px; width:500px;}
+		#catsrangimg:hover {width:560px; height:440px;}
+		#catsrang_tt{position: absolute; top:1300px; left:770px;}
+		#catsrang_txt{position: absolute; top:1410px; left:770px;}
+		#catsrang_sp{position: absolute; top:1620px; left:770px;}
+		#catsrang_pc{position: absolute; top:1650px; left:1070px;}
+
+
+
+
+		/*grocery*/
+		.Section6{height:1200px; width:1400px; position: relative; z-index:1;overflow: hidden;}
+		#sec6{background:none;}
+
+		#subtG {left:-300px; top:20px; position: relative;}
+		#Gtxt {left: 800px; top:-250px; position: relative;}
+
+		#ybg2 {width:1400px; height:1400px; position: relative; top:-200px; z-index:2;}
+
+		.wrap {width:300px; height:420px; left:100px; top:650px; float:left; z-index:3; position:absolute;}
+		.wrap2 {width:300px; height:420px; left:520px; top:650px; float:left; z-index:3; position:absolute;}
+		.wrap3 {width:300px; height:420px; left:950px; top:650px; float:left; z-index:3; position:absolute;}
+		
+		.eyeimg {width:100%; margin:0; display:block;}
+
+
+
+
+
+		.foot{width:1400px; height:400px; background:black; margin:0; padding:0;position: relative;}
+		#nm{right:100px; top:100px; position: absolute;} 
+		#pf {right:100px; top:140px; position: absolute;}
+
+
+
+
+
+
+
+		h2 {font-family: 'Raleway';}
+		.holistic {color:#723b8f; font-size: 6.5em; font-weight:900;}
+		.best {color:white; font-size:3em; font-weight:900;}
+		.bestO {color:#723b8f; font-size:3em; font-weight:900;}
+		.scope {color:#723b8f; font-size:1.2em; font-weight:900; line-height: 1.5em;}
+		.organic {color:#ffd430; font-size: 6.5em; font-weight:900;}
+		.super {color:#723b8f; font-size:6.5em; font-weight:900; text-align:center; line-height:1em;}
+		.bestS {color:#ffd430; font-size:3em; font-weight:900;}
+		.scopeY{color:#ffd430; font-size:1.2em; font-weight:900; line-height:1.5em;}
+		.premium {color:#ff88cc; font-size: 6.5em; font-weight:900;}
+		.pbest {color:white; font-size:3em; font-weight:900;}
+		.scopeW {color:white; font-size:1.2em; font-weight:900; line-height:1.5em;}
+		.grocery {color:#ffd430; font-size:6.5em; font-weight:900; text-align:center; line-height:1em;}
+		.name{color:#723b8f; font-size:1.5em; font-weight:900;}
+
+
+
+
+		h3 {font-family: 'Black Han Sans', sans-serif; color:#ff88cc; font-size: 2.3em;}
+		.main{color:#ff88cc; font-size: 2.3em;}
+		.main2{color:#ff88cc; font-size: 2.3em;}
+		.btsub{color:#723b8f; font-size:2em;}
+		.btsubY{color:#ffd430; font-size:2em;}
+		.btsubW{color:white; font-size:2em;}
+		.box{color:#723b8f; font-size:2em; height:1.5em; margin:0; padding-top:0.3em; }
+
+
+
+		p {font-family:'Gothic A1';}
+		.gptxt{color: #723b8f; font-size:1em; line-height: 1.8em;}
+		.bttxt{color:black; font-size:1em; line-height:1.7em;}
+		.price{color:#723b8f; font-size:1em;}
+		.gptxtW{color:white; font-size:1em; line-height:1.8em;}
+		.priceY{color:#ffd430; font-size:1em;}
+		.priceW{color:white; font-size:1em;}
+		.boxp {color:#723b8f; font-size:1em; line-height:1.7em; height:150px; overflow:hidden; margin:0; padding-top:0.5em;}
+		.profile{color:#723b8f; font-size:1.2em; line-height: 1.7em; text-align:right;}
+
+
+
+
+	header{width:1400px; height:400px; margin:auto; background: url('./img/cats meal-01.jpg') no-reeat; background-size: cover; transition: all 1s;
+	}
+	.dimmer{ display:block; width:800px; height:400px; background:black; opacity: 0.3; position: absolute;}
+
+	@media all and (max-width: 600px) { 
+ 		header{width:inherit; height:300px; }
+ 		.dimmer{height:300px;}
+ 		/*모바일 헤더는 높이를 300px로, 폭은 inherit로 초기값으로 재설정했습니다. 모든 CSS에서 inherit는 값을 주지 않았을 때의 값입니다*/
+
+ 		.header-texts{top:100px;}
+ 		.header-texts h1{font-size:2em;}
+	
+
+
+
+
+
+ 		
+
+
+
+
+		
